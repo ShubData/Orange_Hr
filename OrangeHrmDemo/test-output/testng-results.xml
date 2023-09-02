@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHrEmpTest" duration-ms="109265" started-at="2021-06-09T22:50:55 IST" finished-at="2021-06-09T22:52:44 IST">
+    <groups>
+    </groups>
+    <test name="EmpTests" duration-ms="109265" started-at="2021-06-09T22:50:55 IST" finished-at="2021-06-09T22:52:44 IST">
+      <class name="com.suycorp.tests.EmpTests">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.suycorp.tests.EmpTests@2e3fc542]" name="setUp" is-config="true" duration-ms="5632" started-at="2021-06-09T22:50:55 IST" finished-at="2021-06-09T22:51:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.suycorp.tests.EmpTests@2e3fc542]" name="login" duration-ms="18889" started-at="2021-06-09T22:51:00 IST" finished-at="2021-06-09T22:51:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addEmps()[pri:1, instance:com.suycorp.tests.EmpTests@2e3fc542]" name="addEmps" duration-ms="17879" started-at="2021-06-09T22:51:19 IST" depends-on-methods="com.suycorp.tests.EmpTests.login" finished-at="2021-06-09T22:51:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmps -->
+        <test-method status="PASS" signature="editAddedEmpAndVerify()[pri:2, instance:com.suycorp.tests.EmpTests@2e3fc542]" name="editAddedEmpAndVerify" duration-ms="38601" started-at="2021-06-09T22:51:37 IST" depends-on-methods="com.suycorp.tests.EmpTests.addEmps" finished-at="2021-06-09T22:52:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editAddedEmpAndVerify -->
+        <test-method status="PASS" signature="delAddedEmps()[pri:3, instance:com.suycorp.tests.EmpTests@2e3fc542]" name="delAddedEmps" duration-ms="22574" started-at="2021-06-09T22:52:16 IST" depends-on-methods="com.suycorp.tests.EmpTests.addEmps" finished-at="2021-06-09T22:52:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delAddedEmps -->
+        <test-method status="PASS" signature="delMultiEmp()[pri:4, instance:com.suycorp.tests.EmpTests@2e3fc542]" name="delMultiEmp" duration-ms="4642" started-at="2021-06-09T22:52:38 IST" depends-on-methods="com.suycorp.tests.EmpTests.login" finished-at="2021-06-09T22:52:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delMultiEmp -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.suycorp.tests.EmpTests@2e3fc542]" name="closeSession" is-config="true" duration-ms="956" started-at="2021-06-09T22:52:43 IST" finished-at="2021-06-09T22:52:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.suycorp.tests.EmpTests -->
+    </test> <!-- EmpTests -->
+  </suite> <!-- OrangeHrEmpTest -->
+</testng-results>
